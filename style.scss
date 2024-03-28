@@ -402,18 +402,10 @@ body {
   }
 }
 
-@media (max-width: 998px) {
+@media (max-width: 600px) {
   .gallery {
     &__photo-block {
-      grid-template-columns: 1fr 1fr;
-    }
-  }
-}
-
-@media (max-width: 500px) {
-  .gallery {
-    &__photo-block {
-      grid-template-columns: 1fr;
+      column-count: 2;
     }
   }
 }

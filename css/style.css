@@ -468,17 +468,10 @@ body {
   border-radius: 10px;
 }
 
-@media (max-width: 998px) {
+@media (max-width: 600px) {
   .gallery__photo-block {
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (max-width: 500px) {
-  .gallery__photo-block {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    -webkit-column-count: 2;
+            column-count: 2;
   }
 }
 
